@@ -301,8 +301,9 @@ footer h1{
 
 
     position: fixed;
-height: 100vh;
-
+min-height: 100vh;
+z-index: 555 !important;
+max-height: 1000vh !important;
 width: 90%;
 top: 0;
 right:0 ;
@@ -497,7 +498,7 @@ form{
     display: flex;
    box-sizing: border-box;
     flex-direction: column;
-    width: 525px;
+   max-width: 35%;
     border: solid 1px var(--border-color);
         border-radius: 10px;
    
@@ -563,4 +564,40 @@ footer h4{
     font-size: medium;
 
  }
+.icons{
+    margin-top: 10px;
+    padding: 10px;
+}
+ .mission i{margin-top: 10px;
+    font-size: 50px;
+    background-color: var(--box-color);
+    padding: 10px;
+    color: var(--span-color);
+    border-radius: 50%;
+transition: .3s linear;
+ }
 
+ .mission i:hover{transition: .3s linear;
+    background-color: var(--shadow-color);
+    color: var(--text-color);
+ }
+
+
+ @media (min-width:1040px) and (max-width:1500px) {
+    .contact{
+        width: 100%;
+    }
+    form{
+        min-width: 300px;
+        max-width: 500px;
+   
+    }
+    
+    
+ }
+
+
+ #contact,#about{
+    transition: .5s linear;
+    color: var(--text-color);
+ }
