@@ -393,6 +393,7 @@ main,.wrapper{padding: 10px;
     min-width: 90%;
 }
 .mission{
+      margin-left: -5px !important;
     padding: 30px;;
 
 }
