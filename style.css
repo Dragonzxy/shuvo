@@ -258,6 +258,7 @@ footer h1{
 }
 .mission h1{
     color: var(--secondary-text-color);
+  padding:30px;
 }
 .mission p{
     font-size: small;
@@ -627,3 +628,4 @@ transition: .3s linear;
     transition: .5s linear;
     color: var(--text-color);
  }
+
